@@ -14,8 +14,7 @@ export default function Completed() {
               alt="completed checkout apartment"
             />
             <p className="text-gray-500">
-              We will inform you via email later once the transaction has been
-              accepted
+              Kami akan mengabari kamu dengan email apabila transaksi telah disetujui
             </p>
           </div>
         </div>

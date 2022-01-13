@@ -31,7 +31,7 @@ export default function BookingInformation(props) {
                   </div>
                   <div className="col-auto">
                     <span>
-                      $ {+checkout.duration * ItemDetails.price} USD
+                      Rp {+checkout.duration * ItemDetails.price} IDR
                       <span className="text-gray-500"> per </span>
                       {checkout.duration} {ItemDetails.unit}
                       {+checkout.duration > 1 ? "s" : ""}
@@ -43,7 +43,7 @@ export default function BookingInformation(props) {
           </div>
           <div className="col-5 py-5" style={{ paddingLeft: 80 }}>
             <Fade delay={600}>
-              <label htmlFor="firstName">First Name</label>
+              <label htmlFor="firstName">Nama Depan</label>
               <InputText
                 id="firstName"
                 name="firstName"
@@ -51,7 +51,7 @@ export default function BookingInformation(props) {
                 onChange={props.onChange}
               />
 
-              <label htmlFor="lastName">Last Name</label>
+              <label htmlFor="lastName">Nama Belakang</label>
               <InputText
                 id="lastName"
                 name="lastName"
@@ -59,7 +59,7 @@ export default function BookingInformation(props) {
                 onChange={props.onChange}
               />
 
-              <label htmlFor="email">Email Address</label>
+              <label htmlFor="email">Alamat Email</label>
               <InputText
                 id="email"
                 name="email"
@@ -68,7 +68,7 @@ export default function BookingInformation(props) {
                 onChange={props.onChange}
               />
 
-              <label htmlFor="phone">Phone Number</label>
+              <label htmlFor="phone">Nomor Handphone</label>
               <InputText
                 id="phone"
                 name="phone"
