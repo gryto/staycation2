@@ -25,18 +25,18 @@ export default function Hero(props) {
                         Mulai dengan liburan bersama keluarga
                     </h1>
                     <p className="mb-4 font-weight-light text-teal w-75" style={{lineHeight:"170%"}}>
-                        We provide you what you need to enjoy your holiday with family, Time to
-                        make another memorable moments.
+                    Kami menyediakan apa yang Anda butuhkan untuk menikmati liburan Anda bersama keluarga, Saatnya
+                         membuat momen tak terlupakan lainnya.
                     </p>
                     <Button className="btn px-4 text-white" hasShadow isSecondary onClick={showMostPicked}>
-                        Show Me Now
+                        Telusuri
                     </Button>
                     <div className="row mt-5">
                         <div className="col-auto" style={{marginRight: 20}}>
                             <img  width="36" height="36"
                             src="images/icon_location.svg"
                             alt={`${props.data.location} Location`}/>
-                            <h6 classname="mt-3">
+                            <h6 className="mt-3">
                                 {formatNumber(props.data.location)} <span className="text-gray-500 font-weight-light">
                                     location
                                 </span>
@@ -46,7 +46,7 @@ export default function Hero(props) {
                             <img  width="36" height="36"
                             src="images/icon_treasure.svg" 
                             alt={`${props.data.treasure} Treasure`}/>
-                            <h6 classname="mt-3">
+                            <h6 className="mt-3">
                                 {formatNumber(props.data.treasure)} <span className="text-gray-500 font-weight-light">
                                     treasure
                                 </span>
@@ -56,7 +56,7 @@ export default function Hero(props) {
                             <img  width="36" height="36"
                             src="images/icon_cities.svg"
                             alt={`${props.data.cities} Cities`}/>
-                            <h6 classname="mt-3">
+                            <h6 className="mt-3">
                                 {formatNumber(props.data.cities)} <span className="text-gray-500 font-weight-light">
                                     cities
                                 </span>

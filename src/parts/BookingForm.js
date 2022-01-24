@@ -5,6 +5,7 @@ import propTypes from "prop-types";
 
 import Button from "elements/Button";
 import { InputNumber, InputDate } from "elements/Form";
+//import DetailsPage from "pages/DetailsPage";
 
 class BookingForm extends Component {
   constructor(props) {
