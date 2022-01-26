@@ -55,11 +55,17 @@ class DetailsPage extends Component {
                 <PageDetailDescription data={page[match.params.id]}/>
               </Fade>
             </div>
+            <div className="col-5">
             <Fade bottom>
-            <div className="col-5"><BookingForm itemDetails={page[match.params.id]} startBooking={checkoutBooking}/></div>
+              <BookingForm 
+                itemDetails={page[match.params.id]} 
+                startBooking={this.props.checkoutBooking}
+              />
             </Fade>
+            </div>
           </div>
         </section>
+        
         <Fade bottom>
         <Activity data={page[match.params.id].activityId}/>
         </Fade>
