@@ -36,22 +36,22 @@ export default function Header(props) {
                             <ul className="navbar-nav ml-auto">
                                 <li className={`nav-item${getNavLinkClass("/")}`}>
                                     <Button className="nav-link" type="link" href="">
-                                        Home
+                                        Halaman
                                     </Button>
                                 </li>
                                 <li className={`nav-item${getNavLinkClass("/browse-by")}`}>
                                     <Button className="nav-link" type="link" href="browse-by">
-                                        Browse by
+                                        Jelajahi
                                     </Button>
                                 </li>
                                 <li className={`nav-item${getNavLinkClass("/stories")}`}>
                                     <Button className="nav-link" type="link" href="stories">
-                                        Strories
+                                        Cerita
                                     </Button>
                                 </li>
                                 <li className={`nav-item${getNavLinkClass("/agents")}`}>
                                     <Button className="nav-link" type="link" href="agents">
-                                        Agents
+                                        Kontak
                                     </Button>
                                 </li>
                             </ul>

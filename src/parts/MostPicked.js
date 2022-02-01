@@ -17,7 +17,7 @@ export default function MostPicked(props) {
                         <Fade bottom delay={500 * index}> 
                             <div className="card card-featured">
                                 <div className="tag"> 
-                                    $ {item.price}
+                                    RP {item.price}
                                     <span className="font-weight-light">per {item.unit}</span>
                                 </div>
                                 <figure className="img-wrapper">

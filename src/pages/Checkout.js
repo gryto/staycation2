@@ -66,9 +66,9 @@ class Checkout extends Component {
       payload.append("image", data.proofPayment[0]);
       // payload.append("bankId", checkout.bankId);
 
-    this.props.submitBooking(payload).then(() => {
-      nextStep();
-    });
+      this.props.submitBooking(payload).then(() => {
+        nextStep();
+      });
   };
 
 

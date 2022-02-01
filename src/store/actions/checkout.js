@@ -8,10 +8,10 @@ export const checkoutBooking = (payload) => (dispatch) => {
   });
 };
 
-export const submitBooking = (payload) => {
+export const submitBooking = (payload) => () => { 
   return axios.post(
     `/booking-page`,
     payload,
     { headers: {contentType: "multipart/form-data"}}
   );
-};
+ };
