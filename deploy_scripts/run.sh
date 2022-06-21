@@ -4,7 +4,7 @@
 sudo chmod -R 777 /home/ec2-user/staycation2
 
 #navigate into our working directory where we have all our github files
-cd /home/ec2-user/staycation2
+cd /home/ec2-user/express-app
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
